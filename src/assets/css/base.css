@@ -1,0 +1,49 @@
+* {
+    box-sizing: inherit;
+}
+
+:root {
+    --white-color: #fff;
+    --base-color: #333;
+    --second-color: #a4abb6;
+    --primary-color: #4abfa1;
+    --bg-box-color: #ebfffb;
+    --bg-change-color: #84b7d3;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
