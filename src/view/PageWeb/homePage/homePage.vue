@@ -1,7 +1,7 @@
 <template>
   <div class="grid">
       <div class="banner">
-          <img src="../../assets/img/banner.png" alt="" class="banner__image">
+          <img src="../../../assets/img/banner.png" alt="" class="banner__image">
       </div>
       <Service />
       <Popular />

@@ -5,7 +5,7 @@
       <div class="product__lists grid__row justify-space-between">
         <div class="product__items" v-for="(item,index) in popular" :key="index">
           <img
-            src="../../../assets/img/product/cao_pax.jpg"
+            src="../../../../assets/img/product/cao_pax.jpg"
             alt=""
             class="product__image"
           />
@@ -37,7 +37,7 @@
 export default {
     data(){
         return{
-            popular:[1,2,3,4,5]
+            popular:[1,2,3,4,5,6]
         }
     }
 };

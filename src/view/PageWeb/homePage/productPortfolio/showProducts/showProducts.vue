@@ -24,7 +24,7 @@
         <div class="product__lists grid__row justify-space-between">
           <div class="product__items"  v-for="(item,index) in product" :key="index">
             <img
-              src="../../../../assets/img/product/cao_pax.jpg"
+              src="../../../../../assets/img/product/cao_pax.jpg"
               alt=""
               class="product__image"
             />

@@ -14,12 +14,14 @@
 html {
     font-size: 62.5%;
     line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1;
 }
 
 ul {
@@ -28,22 +30,18 @@ ul {
     padding: 0;
 }
 
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    padding: 0 1.5rem;
+.container {
+    width: 1170px;
     margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
-.grid__row {
-    display: flex;
-    flex-wrap: wrap;
+    padding: 0 auto;
 }
 
 .justify-space-between {
     justify-content: space-between;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
