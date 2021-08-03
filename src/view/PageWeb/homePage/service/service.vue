@@ -1,26 +1,26 @@
 <template>
-  <div class="service grid__row justify-space-between">
+  <div class="service hide-on-mobile-tablet">
     <div class="origin-product service__inner">
       <div class="service__icon">
-        <fa icon="shield-alt"/>
+        <ion-icon name="shield-checkmark-outline"></ion-icon>
       </div>
       <span class="service__text"> chính hãng</span>
     </div>
     <div class="easy-payment service__inner">
       <div class="service__icon">
-        <fa icon="credit-card"/>
+        <ion-icon name="card"></ion-icon>
       </div>
       <span class="service__text"> Thanh toán</span>
     </div>
     <div class="origin-product service__inner">
       <div class="service__icon">
-        <fa icon="shipping-fast"/>
+        <i class="fas fa-shipping-fast"></i>
       </div>
       <span class="service__text"> Vận chuyển</span>
     </div>
     <div class="origin-product service__inner">
       <div class="service__icon">
-        <fa icon="undo"/>
+        <ion-icon name="reload"></ion-icon>
       </div>
       <span class="service__text">Hoàn trả</span>
     </div>

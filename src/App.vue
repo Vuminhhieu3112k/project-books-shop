@@ -1,7 +1,9 @@
 <template>
     <Header/>
     <div id="wp-content">
+      <div class="grid wide">
         <router-view/>
+      </div>
     </div>
     <Footer />
 </template>

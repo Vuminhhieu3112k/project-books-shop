@@ -5,9 +5,9 @@ import './assets/css/reset.css'
 import './assets/css/base.css'
 import './assets/css/main.css'
 import './assets/css/product_detail.css'
-import './assets/css/grid.css'
 import './assets/css/login-regis.css'
 import './assets/css/cart.css'
+import './assets/css/grid.css'
 import './assets/css/responsive.css'
 
 
