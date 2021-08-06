@@ -4,7 +4,7 @@
       <div class="service__icon">
         <ion-icon name="shield-checkmark-outline"></ion-icon>
       </div>
-      <span class="service__text"> chính hãng</span>
+      <span class="service__text text-red-500"> chính hãng</span>
     </div>
     <div class="easy-payment service__inner">
       <div class="service__icon">
